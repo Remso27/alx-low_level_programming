@@ -25,7 +25,7 @@ int main(void)
 		putchar(z);
 		z++;
 	}
-	potchar(10)
+	putchar(10)
 }
 
 
