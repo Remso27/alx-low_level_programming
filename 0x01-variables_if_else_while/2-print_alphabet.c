@@ -10,12 +10,12 @@
 
 int main(void)
 {
-	int x = 97;
+	int i = 97;
 
-	while (x < 123)
+	while (i < 123)
 	{
 		putchar(x);
-		x++;
+		i++;
 	}
 	putchat(10);
 
