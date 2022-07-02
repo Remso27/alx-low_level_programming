@@ -20,12 +20,16 @@ int main(void)
 		putchar(y);
 		y++;
 	}
+
 	while (z < 97)
 	{
 		putchar(z);
 		z++;
 	}
-	putchar(10)
+
+	putchar(10);
+
+	return (0);
 }
 
 
