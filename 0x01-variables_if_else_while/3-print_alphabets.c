@@ -21,7 +21,7 @@ int main(void)
 		y++;
 	}
 
-	while (z < 97)
+	while (z < 91)
 	{
 		putchar(z);
 		z++;
