@@ -11,7 +11,7 @@
 int main(void)
 {
 
-	char program[10] = "alxschool";
+	char program[10] = "Alxschool";
 	int x = 0;
 
 	for (x = 0; x < 9; x++)
