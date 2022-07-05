@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main - prints Holberton
+ * main - prints Alxschool
  *
- * Description: prints Holberton
+ * Description: prints Alxschool
  *
  * Return: 0 (success)
  */
@@ -11,7 +11,7 @@
 int main(void)
 {
 
-	char program[10] = "Holberton";
+	char program[10] = "Alxschool";
 	int x = 0;
 
 	for (x = 0; x < 9; x++)
