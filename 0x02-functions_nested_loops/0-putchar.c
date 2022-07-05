@@ -1,4 +1,4 @@
-#include "main.h"
+#include "min.h"
 
 /**
  * main - prints alxschool
