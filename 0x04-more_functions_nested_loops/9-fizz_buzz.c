@@ -22,9 +22,8 @@ int main(void)
 		else if (n % 3 == 0)
 			printf("Fizz ");
 		else
-			print("%d", n);
+			print("%d ", n);
 	}
-
 	printf('\n');
 
 	return (0);
