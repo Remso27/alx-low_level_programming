@@ -2,8 +2,7 @@
 #include <stdio.h>
 
 /**
- * main - check the code
- * Description: reset_to_98 is a function
+ * reset_to_98 - takes a pointer and updates the value it point to
  * @n: pointer
  *  Return: Always 0
  */
