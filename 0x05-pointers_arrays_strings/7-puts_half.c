@@ -8,7 +8,7 @@
 
 void puts_half(char *str)
 {
-	int x, y, max
+	int x, y, max;
 
 	x = 0;
 	while (str[x] != '\0')
