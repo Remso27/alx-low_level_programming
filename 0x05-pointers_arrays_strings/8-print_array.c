@@ -12,20 +12,15 @@
 
 void print_array(int *a, int n)
 {
-	int x, count;
+	int x;
 
-	x = 0;
-	count = 1;
-	if (n < 0)
-		n = 0;
-	if (n > 0)
+	for (x = 0; x < n; x++)
 	{
-		while (a[x] != '\0' && count < n)
+		printf("%d", a[x]);
+		if (x != (n - 1))
 		{
-			printf("%d, ", a[x]);
-			x++;
-			count++;
+			printf(", ")
 		}
-		printf("%d\n", a[x]);
 	}
+	putchar('\n');
 }
