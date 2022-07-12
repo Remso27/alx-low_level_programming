@@ -8,19 +8,21 @@
 
 void puts_half(char *str)
 {
-	int x, y, max;
+	int index, half;
 
-	x = 0;
-	while (str[x] != '\0')
+	index = 0;
+	while (str[index] != '\0')
+		index++;
+
+	half = index / 2;
+
+	if  (index % 2 == 1)
+		half++;
+
+	while (half < index)
 	{
-		x++;
-	}
-	max = x;
-	y = max / 2;
-	while (y <= max)
-	{
-		_putchar(str[y]);
-		y++;
+		_putchar(str[half]);
+		half++;
 	}
 	_putchar('\n');
 }
