@@ -4,7 +4,8 @@
  * _strcmp - compare tow strings
  * @s1: first string
  * @s2: second string
- * Return: output the difference of s1 and s2
+ * Return: 0 if s1 and s2 are equals,
+ * another number if not.
  */
 
 int *_strcmp(char *s1, char *s2)
@@ -18,4 +19,7 @@ int *_strcmp(char *s1, char *s2)
 			break;
 		y = *(s1 + x) - *(s2 + x);
 		x++;
+	}
+
+	return (y);
 }
