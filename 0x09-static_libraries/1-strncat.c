@@ -2,28 +2,24 @@
 
 /**
  * _strncat - concatenates two strings
- * @dest: A pointer to a character that will be changed
- * @src: A pointer to a character that will be changed
- * @n: value
- * Return: dest
+ * @dest: destination char
+ * @src: source char
+ * @n: number of bytes from src
+ * Return: new string
  */
+
 char *_strncat(char *dest, char *src, int n)
 {
-	int i, j;
+	int x;
+	int y = 0;
 
-	i = 0;
-	while (dest[i] != '\0')
+	while (dest[y] != '\0')
 	{
-		i++;
+		y++;
 	}
-	j = 0;
-	while (j < n && src[j] != '\0')
-	{
-		dest[i] = src[j];
-		j++;
-		i++;
-	}
-	dest[i] = '\0';
+	for (x = 0 ; x < n && src[x] != '\0' ; x++)
+		dest[y + x] = src[x];
+	dest[y + x] = '\0';
 
 	return (dest);
 }
